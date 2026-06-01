@@ -231,7 +231,7 @@ def check_command(args):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="ReqOps Quality Gate Pipeline V2 - Continuous Requirements & Logic Verification Tool"
+        description="ReqOps Quality Gate Pipeline - Continuous Requirements & Logic Verification Tool"
     )
     subparsers = parser.add_subparsers(dest="command", help="Available subcommands")
 
